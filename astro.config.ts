@@ -21,6 +21,7 @@ import config from "./astro-paper.config";
 
 export default defineConfig({
   site: config.site.url,
+  base: '/blog',
   devToolbar: {
     enabled: false, // 關閉開發工具列
   },
