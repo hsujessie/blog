@@ -2,7 +2,7 @@ name: Deploy Astro site to GitHub Pages
 
 on:
   push:
-    branches: [main] # 若是 master 分支請改為 master
+    branches: [main]
   workflow_dispatch:
 
 permissions:
