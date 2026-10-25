@@ -2,10 +2,10 @@ import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
   site: {
-    url: "https://astro-paper.pages.dev/",
+    url: 'https://github.com/hsujessie/blog/',
     title: "Jessie's Blog",
-    description: "A minimal, responsive and SEO-friendly Astro blog theme.",
-    author: "J Hsu",
+    description: "",
+    author: "Jessie",
     profile: "https://github.com/hsujessie",
     ogImage: "default-og.jpg",
     lang: "zh-TW",
