@@ -2,7 +2,7 @@
 author: Jessie
 pubDatetime: 2026-10-25T12:20:54.547Z
 title: 第一篇
-slug: blog-1
+slug: blog-start
 ogImage: https://user-images.githubusercontent.com/53733092/215771435-25408246-2309-4f8b-a781-1f3d93bdf0ec.png
 tags:
   - start
