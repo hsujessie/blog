@@ -24,6 +24,7 @@ export default defineConfig({
     enabled: false, // 關閉開發工具列
   },
   site: config.site.url,
+  base: "/blog",
   integrations: [
     mdx(),
     sitemap({
