@@ -20,6 +20,9 @@ import { transformerFileName } from "./src/utils/transformers/fileName";
 import config from "./astro-paper.config";
 
 export default defineConfig({
+  devToolbar: {
+    enabled: false, // 關閉開發工具列
+  },
   site: config.site.url,
   integrations: [
     mdx(),
@@ -29,8 +32,8 @@ export default defineConfig({
     }),
   ],
   i18n: {
-    locales: ["en"],
-    defaultLocale: "en",
+    locales: ['zh-TW', 'en'],
+    defaultLocale: "zh-TW",
     routing: {
       prefixDefaultLocale: false,
     },

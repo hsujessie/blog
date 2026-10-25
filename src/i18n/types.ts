@@ -39,10 +39,8 @@ export interface UIStrings {
     postsTitle: string;
     archivesTitle: string;
     searchTitle: string;
-    searchDesc: string;
   };
   a11y: {
-    skipToContent: string;
     openMenu: string;
     closeMenu: string;
     toggleTheme: string;
