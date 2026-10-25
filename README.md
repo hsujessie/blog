@@ -26,13 +26,20 @@
 └── astro.config.ts
 ```
 
-## 💻 Commands
+## 💻 建立步驟
+```bash
+# 以 AstroPaper 為範本建立專案
+npm create astro@latest blog -- --template satnaing/astro-paper
 
-| Command          | Action                                                                                                                           |
-| :--------------- | :------------------------------------------------------------------------------------------------------------------------------- |
-| `npm install`   | Installs dependencies                                                                                                            |
-| `npm dev`       | Starts local dev server at `localhost:4321`                                                                                      |
-| `npm build`     | Type-checks, builds the site, runs Pagefind indexing, and copies the index to `public/pagefind/`                                 |
-| `npm preview`   | Preview your build locally, before deploying                                                                                     |
-| `npm sync`      | Generates TypeScript types for all Astro modules. [Learn more](https://docs.astro.build/en/reference/cli-reference/#astro-sync). |
-| `npm astro ...` | Run CLI commands like `astro add`, `astro check`                                                                                 |
+# 進入專案資料夾
+cd blog
+
+# 安裝依賴
+npm install
+
+# 啟動本機伺服器
+npm run dev
+
+# 預覽
+http://localhost:4321
+```
