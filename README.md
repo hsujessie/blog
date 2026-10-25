@@ -37,6 +37,10 @@ cd blog
 # 安裝依賴
 npm install
 
+# 打包靜態檔案（通常輸出到 dist 資料夾）
+# 備註：在本地開發模式，「搜尋功能」需要先產生一次索引檔才能正常運作。
+npm run build
+
 # 啟動本機伺服器
 npm run dev
 
