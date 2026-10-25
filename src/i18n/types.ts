@@ -3,7 +3,6 @@ export interface UIStrings {
     home: string;
     posts: string;
     tags: string;
-    about: string;
     archives: string;
     search: string;
   };
@@ -27,27 +26,18 @@ export interface UIStrings {
   };
   home: {
     socialLinks: string;
-    featured: string;
     recentPosts: string;
     allPosts: string;
-  };
+  }
   footer: {
     copyright: string;
     allRightsReserved: string;
   };
   pages: {
     tagTitle: string;
-    tagDesc: string;
-
     tagsTitle: string;
-    tagsDesc: string;
-
     postsTitle: string;
-    postsDesc: string;
-
     archivesTitle: string;
-    archivesDesc: string;
-
     searchTitle: string;
     searchDesc: string;
   };

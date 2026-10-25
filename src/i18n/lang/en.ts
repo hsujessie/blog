@@ -5,7 +5,6 @@ export default {
     home: "Home",
     posts: "Posts",
     tags: "Tags",
-    about: "About",
     archives: "Archives",
     search: "Search",
   },
@@ -28,8 +27,7 @@ export default {
     page: "Page",
   },
   home: {
-    socialLinks: "Social Links",
-    featured: "Featured",
+    socialLinks: "Find me here",
     recentPosts: "Recent Posts",
     allPosts: "All Posts",
   },
@@ -39,17 +37,9 @@ export default {
   },
   pages: {
     tagTitle: "Tag",
-    tagDesc: "All the articles with the tag",
-
     tagsTitle: "Tags",
-    tagsDesc: "All the tags used in posts.",
-
     postsTitle: "Posts",
-    postsDesc: "All the articles I've posted.",
-
     archivesTitle: "Archives",
-    archivesDesc: "All the articles I've archived.",
-
     searchTitle: "Search",
     searchDesc: "Search any article ...",
   },

@@ -55,8 +55,6 @@ Inside of AstroPaper, you'll see the following folders and files:
 │   │   └── images/
 │   ├── components/
 │   ├── content/
-│   │   ├── pages/
-│   │   │   └── about.md
 │   │   └── posts/
 │   │       └── some-blog-posts.md
 │   ├── i18n/
